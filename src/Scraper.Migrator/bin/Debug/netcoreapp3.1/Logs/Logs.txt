@@ -1,0 +1,51 @@
+﻿DEBUG 2020-09-25 17:09:10,025 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-25 17:09:10,275 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2020-09-25 17:09:10,443 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Scraper.Migrator.ScraperMigratorModule, Scraper.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Scraper.EntityFrameworkCore.ScraperEntityFrameworkModule, Scraper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Scraper.ScraperCoreModule, Scraper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:10,457 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2020-09-25 17:09:11,031 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Scraper.EntityFrameworkCore.ScraperDbContext, Scraper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:09:11,579 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2020-09-25 17:09:11,639 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-25 17:09:11,649 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-25 17:09:11,655 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Scraper
+INFO  2020-09-25 17:09:11,842 [1    ] Scraper.Migrator.Log                     - Host database: server=localhost;database=ScraperDb;trusted_connection=True
+INFO  2020-09-25 17:09:11,842 [1    ] Scraper.Migrator.Log                     - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-09-25 17:09:22,234 [1    ] Scraper.Migrator.Log                     - HOST database migration started...
+INFO  2020-09-25 17:09:36,962 [1    ] Scraper.Migrator.Log                     - HOST database migration completed.
+INFO  2020-09-25 17:09:36,963 [1    ] Scraper.Migrator.Log                     - --------------------------------------------------------
+INFO  2020-09-25 17:09:37,014 [1    ] Scraper.Migrator.Log                     - All databases have been migrated.
+DEBUG 2020-09-25 17:10:02,372 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-09-25 17:10:02,373 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-09-25 17:10:37,086 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-09-25 17:10:37,134 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2020-09-25 17:10:37,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Scraper.Migrator.ScraperMigratorModule, Scraper.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Scraper.EntityFrameworkCore.ScraperEntityFrameworkModule, Scraper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Scraper.ScraperCoreModule, Scraper.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.10.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:37,289 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2020-09-25 17:10:37,624 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Scraper.EntityFrameworkCore.ScraperDbContext, Scraper.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-09-25 17:10:38,156 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2020-09-25 17:10:38,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-09-25 17:10:38,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-09-25 17:10:38,205 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Scraper
+INFO  2020-09-25 17:10:38,346 [1    ] Scraper.Migrator.Log                     - Host database: server=.\SQLEXPRESS;database=ScraperDb;trusted_connection=True
+INFO  2020-09-25 17:10:38,346 [1    ] Scraper.Migrator.Log                     - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2020-09-25 17:10:43,328 [1    ] Scraper.Migrator.Log                     - HOST database migration started...
+INFO  2020-09-25 17:10:57,492 [1    ] Scraper.Migrator.Log                     - HOST database migration completed.
+INFO  2020-09-25 17:10:57,492 [1    ] Scraper.Migrator.Log                     - --------------------------------------------------------
+INFO  2020-09-25 17:10:57,539 [1    ] Scraper.Migrator.Log                     - All databases have been migrated.
+DEBUG 2020-09-25 17:11:00,063 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2020-09-25 17:11:00,064 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2020-09-25 17:41:27,711 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...

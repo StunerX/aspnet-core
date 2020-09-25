@@ -1,0 +1,613 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Web.Tests\\Scraper.Web.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj",
+        "projectName": "Scraper.Application",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[85.0.4183.8700, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj",
+        "projectName": "Scraper.Core",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Abp.ZeroCore.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Castle.Windsor.MsDependencyInjection": {
+              "target": "Package",
+              "version": "[3.3.1, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj",
+        "projectName": "Scraper.EntityFrameworkCore",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Core\\Scraper.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Core\\Scraper.Web.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Core\\Scraper.Web.Core.csproj",
+        "projectName": "Scraper.Web.Core",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Core\\Scraper.Web.Core.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj"
+              },
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp.AspNetCore": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Abp.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Abp.ZeroCore": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Mvc\\Scraper.Web.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Mvc\\Scraper.Web.Mvc.csproj",
+        "projectName": "Scraper.Web.Mvc",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Mvc\\Scraper.Web.Mvc.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Mvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Core\\Scraper.Web.Core.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Core\\Scraper.Web.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp.Castle.Log4Net": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Abp.HangFire": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Abp.RedisCache": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.447, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "PaulMiami.AspNetCore.Mvc.Recaptcha": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Tests\\Scraper.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Tests\\Scraper.Tests.csproj",
+        "projectName": "Scraper.Tests",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Tests\\Scraper.Tests.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Application\\Scraper.Application.csproj"
+              },
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.EntityFrameworkCore\\Scraper.EntityFrameworkCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp.TestBase": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Web.Tests\\Scraper.Web.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Web.Tests\\Scraper.Web.Tests.csproj",
+        "projectName": "Scraper.Web.Tests",
+        "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Web.Tests\\Scraper.Web.Tests.csproj",
+        "packagesPath": "C:\\Users\\Cleyton Santos\\.nuget\\packages\\",
+        "outputPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Web.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cleyton Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Mvc\\Scraper.Web.Mvc.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\src\\Scraper.Web.Mvc\\Scraper.Web.Mvc.csproj"
+              },
+              "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Tests\\Scraper.Tests.csproj": {
+                "projectPath": "C:\\playground\\Scraper\\5.7.0\\aspnet-core\\test\\Scraper.Tests\\Scraper.Tests.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Abp.AspNetCore.TestBase": {
+              "target": "Package",
+              "version": "[5.10.1, )"
+            },
+            "AngleSharp": {
+              "target": "Package",
+              "version": "[0.14.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "portable-net45+win8+wp8+wpa81",
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

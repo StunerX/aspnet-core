@@ -1,0 +1,17 @@
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.dll.config
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.deps.json
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.runtimeconfig.json
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.runtimeconfig.dev.json
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.dll
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.pdb
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.Core.dll
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Scraper.Core.pdb
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.csprojAssemblyReference.cache
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.dll.config
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.AssemblyInfoInputs.cache
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.AssemblyInfo.cs
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.csproj.CopyComplete
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.dll
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.pdb
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Scraper.EntityFrameworkCore.genruntimeconfig.cache

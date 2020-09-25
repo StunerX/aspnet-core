@@ -1,0 +1,12 @@
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\bin\Debug\netcoreapp3.1\Scraper.Application.deps.json
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\bin\Debug\netcoreapp3.1\Scraper.Application.dll
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\bin\Debug\netcoreapp3.1\Scraper.Core.dll
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\bin\Debug\netcoreapp3.1\Scraper.Core.pdb
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.csprojAssemblyReference.cache
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.AssemblyInfoInputs.cache
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.AssemblyInfo.cs
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.csproj.CopyComplete
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\bin\Debug\netcoreapp3.1\Scraper.Application.pdb
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.dll
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.pdb
+C:\playground\Scraper\5.7.0\aspnet-core\src\Scraper.Application\obj\Debug\netcoreapp3.1\Scraper.Application.csproj.CoreCompileInputs.cache
